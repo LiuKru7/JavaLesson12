@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc4621c-c355-41c7-b0e3-945024265607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example_2/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example_2/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_2/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +57,14 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="2" />
+          <line>97</line>
+          <properties class="example_1.MusicPlayer" method="connectHeadset">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

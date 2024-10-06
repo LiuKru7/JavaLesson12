@@ -9,7 +9,7 @@ public class Calculator extends JFrame implements ActionListener {
     // Define components
     private JTextField display;
     private JButton[] numberButtons;
-    private JButton addButton, subButton, equalButton, clearButton;
+    private JButton addButton, subButton, equalButton, clearButton, devideButton, multiplyButton;
     private JPanel panel;
 
     // Variables to hold values for operations
@@ -40,11 +40,13 @@ public class Calculator extends JFrame implements ActionListener {
         // Create operation buttons
         addButton = new JButton("+");
         subButton = new JButton("-");
+        devideButton = new JButton("/");
+        multiplyButton = new JButton("*");
         equalButton = new JButton("=");
         clearButton = new JButton("C");
 
         // Set font for operation buttons
-        JButton[] ops = {addButton, subButton, equalButton, clearButton};
+        JButton[] ops = {addButton, subButton, equalButton, clearButton, multiplyButton, devideButton};
         for (JButton btn : ops) {
             btn.setFont(new Font("Arial", Font.BOLD, 24));
             btn.addActionListener(this);
@@ -66,10 +68,11 @@ public class Calculator extends JFrame implements ActionListener {
         panel.add(numberButtons[7]);
         panel.add(numberButtons[8]);
         panel.add(numberButtons[9]);
-        panel.add(new JLabel());  // Empty space
+        panel.add(multiplyButton);  // Empty space
         panel.add(clearButton);
         panel.add(numberButtons[0]);
         panel.add(equalButton);
+        panel.add(devideButton);
 
         // Add panel to frame
         add(panel, BorderLayout.CENTER);
@@ -94,9 +97,20 @@ public class Calculator extends JFrame implements ActionListener {
 
         if (e.getSource() == subButton) {
             num1 = Double.parseDouble(display.getText());
-            operator = '-';
+            operator = '*';
             display.setText("");  // Clear the display
         }
+        if(e.getSource() == multiplyButton) {
+            num1 = Double.parseDouble(display.getText());
+            operator = '*';
+            display.setText("");  // Clear the display
+        }
+        if(e.getSource() == devideButton) {
+            num1 = Double.parseDouble(display.getText());
+            operator = '/';
+            display.setText("");  // Clear the display
+        }
+
 
         if (e.getSource() == equalButton) {
             num2 = Double.parseDouble(display.getText());
@@ -106,6 +120,10 @@ public class Calculator extends JFrame implements ActionListener {
                 result = num1 + num2;
             } else if (operator == '-') {
                 result = num1 - num2;
+            } else if (operator == '/') {
+                result = num1 / num2;
+            } else if (operator == '*') {
+                result = num1 * num2;
             }
 
             display.setText(String.valueOf(result));
@@ -114,6 +132,7 @@ public class Calculator extends JFrame implements ActionListener {
         if (e.getSource() == clearButton) {
             display.setText("");  // Clear the display
         }
+
     }
 
     public static void main(String[] args) {
