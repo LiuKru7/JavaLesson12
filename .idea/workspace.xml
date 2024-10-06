@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc4621c-c355-41c7-b0e3-945024265607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example_2/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Calculator.executor": "Run",
     "Application.MusicPlayerTester.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -51,5 +53,16 @@
       <updated>1728200130750</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
