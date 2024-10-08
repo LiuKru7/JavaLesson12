@@ -1,4 +1,4 @@
-package tasks.groocery_list_manager;
+package tasks.grocery_list_manager;
 
 import java.util.ArrayList;
 import java.util.Scanner;
