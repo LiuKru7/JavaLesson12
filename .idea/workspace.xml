@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc4621c-c355-41c7-b0e3-945024265607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/groocery_list_manager/GroceryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/groocery_list_manager/GroceryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +39,7 @@
   "keyToString": {
     "Application.Calculator.executor": "Run",
     "Application.GroceryMain.executor": "Run",
+    "Application.LibraryMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ModernCalculate.executor": "Run",
     "Application.MusicPlayerTester.executor": "Run",
