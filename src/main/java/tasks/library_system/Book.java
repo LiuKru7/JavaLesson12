@@ -10,12 +10,4 @@ public class Book {
         this.author = author;
         this.isAvailable = true;
     }
-
-    public void borrow() {
-        isAvailable = false;
-    }
-    public void returnBook() {
-        isAvailable = true;
-    }
-
 }

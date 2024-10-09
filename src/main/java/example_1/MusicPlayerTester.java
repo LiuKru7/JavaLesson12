@@ -8,11 +8,20 @@ public class MusicPlayerTester {
 
         MusicPlayer samsung = new MusicPlayer();
         samsung.name = "samsung gt3500";
-
+        iPod.connectHeadset();
+        iPod.connectHeadset();
+        iPod.addSong();
+        System.out.println(iPod.getAllSongs());
+        iPod.deleteSong();
+        iPod.playSong();
+        iPod.playSong();
+        iPod.playSong();
+        iPod.switchSongs();
         iPod.printAllSongs();
-        samsung.printAllSongs();
         samsung.transferSong(iPod.songs);
-        iPod.printAllSongs();
         samsung.printAllSongs();
+        iPod.clearAllSongs();
+        iPod.printAllSongs();
+        iPod.showSongsHistory();
     }
 }

@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc4621c-c355-41c7-b0e3-945024265607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RunManager">
@@ -91,6 +96,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java</url>
+          <line>112</line>
+          <properties class="example_1.MusicPlayer" method="switchSongs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

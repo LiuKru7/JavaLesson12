@@ -127,8 +127,7 @@ public class MusicPlayer {
         String secondSong = songs[secondNumber - 1];
         songs[firstNumber - 1] = secondSong;
         songs[secondNumber - 1] = firstSong;
-        System.out.println("Songs switch positions");
-
+        System.out.println("Songs switched positions\n");
     }
 
     public void showSongsHistory() {

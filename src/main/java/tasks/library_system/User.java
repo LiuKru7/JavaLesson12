@@ -1,20 +1,21 @@
 package tasks.library_system;
 
-import java.util.Arrays;
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class User {
     String name;
-    Arrays books[] = new Arrays[5];
+    Book[] books = new Book[5];
 
     public User(String name) {
         this.name = name;
     }
 
-    public void barrowBook(Book book){
-
-    }
-
-    public void returnBook (Book book){
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "name='" + name + '\'' +
+                ", books=" + books +
+                '}';
     }
 }
