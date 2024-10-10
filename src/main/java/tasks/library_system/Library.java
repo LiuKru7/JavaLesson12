@@ -27,6 +27,9 @@ public class Library {
         System.out.println("Print Users ");
         for (int i = 0; i < users.size(); i++) {
             System.out.println(users.get(i).name);
+            for (int j = 0; j < users.get(i).books.length; j++) {
+                System.out.println(users.get(i).books[j]);
+            }
         }
     }
 
@@ -46,11 +49,23 @@ public class Library {
         System.out.println("Say your name:");
         String userName = scanner.nextLine();
 
+        int index = -1;
+
 
         if (userName == null || userName.isEmpty()) {
             System.out.println("Invalid user name.");
             return;
         }
+        for (int i = 0; i < users.size(); i++) {
+            if (users.get(i).name.toLowerCase().equals(userName.toLowerCase())) {
+                index = i;
+                break;
+            }
+        }
+        if (index == -1){
+            return;
+        }
+
 
         for (int i = 0; i < users.size(); i++) {
             System.out.println(users.get(i).books[i]);
@@ -77,6 +92,9 @@ public class Library {
             return;
         }
         selectedBook.isAvailable = false;
-
+        users.get(index).books[0] = books.get(wantBookNumber-1);
+        System.out.println();
+        System.out.println(users.get(index).books[0]);
     }
+
 }

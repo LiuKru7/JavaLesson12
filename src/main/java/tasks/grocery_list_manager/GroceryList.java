@@ -49,5 +49,32 @@ public class GroceryList {
 
         }
     }
+    public void buyItem () {
+        printList();
+        System.out.println("Write number that item you wanna buy: ");
+        int itemNumber = scanner.nextInt();
+        int itemIndex = itemNumber-1;
 
+        System.out.println("How much: ");
+        int itemQuantity = scanner.nextInt();
+
+        if (itemNumber<1 || itemNumber>items.size()){
+            System.out.println("This item not exist ");
+            return;
+        }
+        if (itemQuantity > items.get(itemIndex).quantity) {
+            System.out.println("not enought quantity ");
+            return;
+        }
+        double totalCost = items.get(itemIndex).pricePerUnit * itemQuantity;
+        String yourItem = items.get(itemIndex).name;
+
+        if (itemQuantity == items.get(itemIndex).quantity) {
+            items.remove(itemIndex);
+        } else {
+            items.get(itemIndex).quantity -= itemQuantity;
+        }
+
+        System.out.printf("You buy item: %s, quantity: %d, and you pay %.2f euros.", yourItem, itemQuantity, totalCost);
+    }
 }

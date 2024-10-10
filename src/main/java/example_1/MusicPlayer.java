@@ -11,7 +11,7 @@ public class MusicPlayer {
     private boolean isHeadSetConnected;
     private final Scanner myScanner = new Scanner(System.in);
     private int nowPlaying;
-    private String[] songHistory = new String[5];
+    private final String[] songHistory = new String[5];
 
     public MusicPlayer(String name, double version, String[] songs, boolean isHeadSetConnected) {
         this.name = name;
@@ -122,10 +122,8 @@ public class MusicPlayer {
         if (checkOrSongRangeValid(secondNumber)) {
             return;
         }
-
         String firstSong = songs[firstNumber - 1];
-        String secondSong = songs[secondNumber - 1];
-        songs[firstNumber - 1] = secondSong;
+        songs[firstNumber - 1] = songs[secondNumber - 1];
         songs[secondNumber - 1] = firstSong;
         System.out.println("Songs switched positions\n");
     }
@@ -137,7 +135,6 @@ public class MusicPlayer {
     public void transferSong(String[] songsFromOtherPlayer) {
         System.out.println("Enter the number of the song you want to transfer: ");
         int songNumberYouWantTransfer = myScanner.nextInt();
-
         final boolean isSongRangeValid =  songNumberYouWantTransfer >= 1 && songNumberYouWantTransfer <= songs.length;
         if (!isSongRangeValid) {
             System.out.printf("Song place is invalid. Please select place from 1 to %d. %n", songsFromOtherPlayer.length);
@@ -154,6 +151,9 @@ public class MusicPlayer {
         System.out.printf("Transferring song: %s to position %d.%n", songsFromOtherPlayer[songNumberYouWantTransfer - 1], songPlace);
         songs[songPlace-1] = songsFromOtherPlayer[songNumberYouWantTransfer - 1];
     }
+
+
+
 
     private boolean checkOrSongRangeValid(int songPlace) {
         final boolean isSongRangeValid = songPlace >= 1 && songPlace <= songs.length;
