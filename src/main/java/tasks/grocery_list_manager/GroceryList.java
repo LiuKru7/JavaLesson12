@@ -29,10 +29,9 @@ public class GroceryList {
         scanner.nextLine();
         GroceryItem groceryItem = new GroceryItem(name, quantity, pricePerUnit);
         items.add(groceryItem);
-
     }
     public void printList() {
-        System.out.println("Grocery items list:");
+        System.out.println("\nGrocery items list:");
         for (int i = 0; i < items.size(); i++) {
             System.out.printf("%d.Name: %s; Quantity: %d; Price per unit %.2f eur.;%n",
                     i+1, items.get(i).name , items.get(i).quantity, items.get(i).pricePerUnit);
@@ -41,7 +40,7 @@ public class GroceryList {
 
 
     public void calculateTotalCost () {
-        System.out.println("Grocery items list with total cost:  ");
+        System.out.println("\nGrocery items list with total cost:  ");
         for (int i = 0; i < items.size(); i++) {
             double totalPrice = items.get(i).quantity * items.get(i).pricePerUnit;
             System.out.printf("%d.Name: %s; Quantity: %d; Price per unit %.2f eur.; Total Price : %.2f eur. %n",
@@ -51,7 +50,7 @@ public class GroceryList {
     }
     public void buyItem () {
         printList();
-        System.out.println("Write number that item you wanna buy: ");
+        System.out.println("\nWrite number that item you wanna buy: ");
         int itemNumber = scanner.nextInt();
         int itemIndex = itemNumber-1;
 

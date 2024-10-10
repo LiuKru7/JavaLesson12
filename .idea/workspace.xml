@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc4621c-c355-41c7-b0e3-945024265607" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/example_5/ArrayAndCounterTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example_1/MusicPlayerTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" afterDir="false" />
     </list>
@@ -44,7 +39,7 @@
     "Application.ArrayAndCounterTester.executor": "Run",
     "Application.Calculator.executor": "Run",
     "Application.GroceryMain.executor": "Run",
-    "Application.LibraryMain.executor": "Debug",
+    "Application.LibraryMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.ModernCalculate.executor": "Debug",
     "Application.MusicPlayerTester.executor": "Run",
@@ -93,7 +88,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java</url>
-          <line>93</line>
+          <line>97</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -122,5 +117,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="tasks.library_system.User" memberName="books" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
