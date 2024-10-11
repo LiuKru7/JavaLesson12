@@ -1,4 +1,4 @@
-package tasks.grocery_list_manager;
+package tasks.grocery_list_manager_v1;
 
 public class GroceryMain {
     public static void main(String[] args) {
@@ -7,7 +7,6 @@ public class GroceryMain {
         groceryList.addItem();
         groceryList.printList();
         groceryList.calculateTotalCost();
-        groceryList.buyItem();
 
     }
 }

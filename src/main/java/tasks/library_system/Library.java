@@ -52,15 +52,11 @@ public class Library {
                 System.out.printf("%d. Book name: %s ; Book author: %s",j+1, users.get(userIndex).books[j].title, users.get(userIndex).books[j].author);
             }
         }
-
-
-
     }
 
     public void takeBookFromLibrary() {
         printUsers();
         int index = -1;
-
 
         System.out.println("Say your name:");
         String userName = scanner.nextLine();
@@ -77,7 +73,6 @@ public class Library {
         if (index == -1){
             return;
         }
-
         displayAvailableBooks();
         System.out.println("If you want a book from the list, write the book number. If not, write '0':");
         int wantBookNumber = scanner.nextInt();
@@ -96,7 +91,12 @@ public class Library {
             return;
         }
         selectedBook.isAvailable = false;
-        users.get(index).books[0] = books.get(wantBookNumber-1);
+        for (int i = 0; i < users.get(index).books.length; i++) {
+            if (users.get(index).books[i].author == null) {
+                users.get(index).books[i] = books.get(wantBookNumber-1);
+                return;
+            }
+        }
         System.out.println();
         System.out.println(users.get(index).books[0].title);
     }

@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbc4621c-c355-41c7-b0e3-945024265607" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager_v1/GroceryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager_v1/GroceryList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager_v1/GroceryMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager/GroceryMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/LibraryMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tasks/library_system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tasks/library_system/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +44,24 @@
     "Application.GroceryMain.executor": "Run",
     "Application.LibraryMain.executor": "Run",
     "Application.Main.executor": "Run",
-    "Application.ModernCalculate.executor": "Debug",
+    "Application.ModernCalculate.executor": "Run",
     "Application.MusicPlayerTester.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/liudvikaskruopis/IdeaProjects/kodokelias/paskaita_12/src/main/java/tasks/library_system_v1",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/tasks/library_system_v1" />
+      <recent name="$PROJECT_DIR$/src/main/java/tasks/grocery_list_manager_v1" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ModernCalculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="example_3.ModernCalculate" />
@@ -88,7 +98,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tasks/library_system/Library.java</url>
-          <line>97</line>
+          <line>92</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
