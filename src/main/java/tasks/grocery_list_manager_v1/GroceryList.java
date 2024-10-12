@@ -7,18 +7,18 @@ public class GroceryList {
     private final Scanner scanner = new Scanner(System.in);
 
     public void addItem() {
-        System.out.print("Write item name: ");
+        System.out.print("Enter the item name: ");
         String name = scanner.nextLine();
-        System.out.print("Write item quantity: ");
+        System.out.print("Enter the quantity: ");
         int quantity = scanner.nextInt();
         while (quantity<1) {
-            System.out.println("Item quantity can be zero or negative");
+            System.out.println("Quantity cannot be zero or negative. Please enter a valid quantity:");
             quantity = scanner.nextInt();
         }
-        System.out.print("Write item price per unit: ");
+        System.out.print("Enter the price per unit: ");
         double pricePerUnit = scanner.nextDouble();
         while (pricePerUnit<=0) {
-            System.out.println("Item price per unit can't be zero or negative");
+            System.out.println("Price per unit cannot be zero or negative. Please enter a valid price: ");
             pricePerUnit = scanner.nextDouble();
         }
         scanner.nextLine();
@@ -29,11 +29,11 @@ public class GroceryList {
                 return;
             }
         }
-        System.out.println("not empty slot for new item");
+        System.out.println("No available slot for a new item.");
 
     }
     public void printList() {
-        System.out.println("\nGrocery items list:");
+        System.out.println("\nGrocery list:");
         for (int i = 0; i < items.length; i++) {
             if (items[i] == null) {
                 return;

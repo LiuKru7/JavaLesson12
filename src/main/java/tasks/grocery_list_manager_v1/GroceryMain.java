@@ -7,6 +7,5 @@ public class GroceryMain {
         groceryList.addItem();
         groceryList.printList();
         groceryList.calculateTotalCost();
-
     }
 }
